@@ -137,18 +137,3 @@ img {
 }
 
 /* smartphone */
-
-@media screen and (min-width: 480px) {
-  .container {
-    width: 480px;
-  }
-  .row {
-    display: block;
-  }
-
-  .lessons .col,
-  .steps .col,
-  .why-us .col {
-    width: unset;
-  }
-}
