@@ -130,10 +130,25 @@ img {
 
 /* tablet */
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
     width: 768px;
   }
 }
 
 /* smartphone */
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 480px;
+  }
+  .row {
+    display: block;
+  }
+
+  .lessons .col,
+  .steps .col,
+  .why-us .col {
+    width: unset;
+  }
+}
